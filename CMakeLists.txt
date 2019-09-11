@@ -12,11 +12,15 @@ add_executable(${PROJECT_NAME}
     chessboard.cpp
     piece.cpp
     console_visitor.cpp
+    position.cpp
+    game_rules.cpp
 
     chessboard.hpp
     piece.hpp
     settings.hpp
     console_visitor.hpp
+    position.hpp
+    game_rules.hpp
 )
 target_include_directories(${PROJECT_NAME}
     PRIVATE

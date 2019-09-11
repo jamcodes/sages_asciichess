@@ -5,6 +5,7 @@
 #include "settings.hpp"
 
 class Piece;
+class Position;
 class ConsoleVisitor;
 
 class Chessboard {
@@ -16,7 +17,8 @@ public:
                     // in the implementation file, which includes piece.hpp
 
     void accept(ConsoleVisitor& visitor) const;
-
+    bool move(Position from, Position to);
+    Piece const& getPiece(Position position) const;
 private:
     container_t fields;
 };

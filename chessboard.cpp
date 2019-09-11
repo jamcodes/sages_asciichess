@@ -1,6 +1,8 @@
 #include "chessboard.hpp"
 #include "piece.hpp"
+#include "position.hpp"
 #include "console_visitor.hpp"
+#include "game_rules.hpp"
 
 namespace {
 
@@ -47,4 +49,24 @@ void Chessboard::accept(ConsoleVisitor& visitor) const {
         }
     }
     visitor.visit(table);
+}
+
+Piece const& Chessboard::getPiece(Position position) const
+{
+    auto const& piece{fields[position.getRowIndex()][position.getColIndex()]};
+    if (nullptr == piece) {
+        throw std::runtime_error{"Invalid piece position"};
+    }
+    return *piece;
+}
+
+bool Chessboard::move(Position from, Position to)
+{
+    auto& from_field{fields[from.getRowIndex()][from.getColIndex()]};
+    auto& to_field{fields[to.getRowIndex()][to.getColIndex()]};
+    if (from_field == nullptr || to_field != nullptr) {
+        return false;
+    }
+    std::swap(from_field, to_field);
+    return true;
 }
