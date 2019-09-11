@@ -27,6 +27,8 @@ Chessboard::Chessboard()
     makeRow(fields[7], PieceColor::Black);
 }
 
+Chessboard::~Chessboard() = default;
+
 void Chessboard::accept(ConsoleVisitor& visitor) const {
     auto rowNumber = ChessboardHeight;
     int table[ChessboardHeight][ChessboardWidth];

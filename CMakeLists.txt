@@ -2,6 +2,11 @@ cmake_minimum_required(VERSION 3.13)
 project(asciichess CXX)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+
+# add_library(chessboard OBJECT chessboard.cpp chessboard.hpp)
+# add_library(piece OBJECT piece.cpp piece.hpp)
+# add_library(console_visitor OBJECT console_visitor.cpp console_visitor.hpp)
+
 add_executable(${PROJECT_NAME}
     main.cpp
     chessboard.cpp

@@ -30,7 +30,7 @@ void showRowSeparator() {
     while(row--) {
         std::cout << "+-";
     }
-    std::cout << "\n";
+    std::cout << "+\n";
 }
 
 void showRow(const int * row, unsigned rowNumber) {
