@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/buildc",
+  "command": "/C/msys64/mingw64/bin/clang++.exe   -I/C/Users/JMucha/dev/cpp_adv_arch/sages_asciichess    -Wall -Wextra -pedantic -Weffc++ -Wshadow -fuse-ld=gold -std=gnu++17 -o CMakeFiles/asciichess.dir/main.cpp.obj -c /C/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/main.cpp",
+  "file": "C:/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/main.cpp"
+},
+{
+  "directory": "C:/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/buildc",
+  "command": "/C/msys64/mingw64/bin/clang++.exe   -I/C/Users/JMucha/dev/cpp_adv_arch/sages_asciichess    -Wall -Wextra -pedantic -Weffc++ -Wshadow -fuse-ld=gold -std=gnu++17 -o CMakeFiles/asciichess.dir/chessboard.cpp.obj -c /C/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/chessboard.cpp",
+  "file": "C:/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/chessboard.cpp"
+},
+{
+  "directory": "C:/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/buildc",
+  "command": "/C/msys64/mingw64/bin/clang++.exe   -I/C/Users/JMucha/dev/cpp_adv_arch/sages_asciichess    -Wall -Wextra -pedantic -Weffc++ -Wshadow -fuse-ld=gold -std=gnu++17 -o CMakeFiles/asciichess.dir/piece.cpp.obj -c /C/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/piece.cpp",
+  "file": "C:/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/piece.cpp"
+},
+{
+  "directory": "C:/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/buildc",
+  "command": "/C/msys64/mingw64/bin/clang++.exe   -I/C/Users/JMucha/dev/cpp_adv_arch/sages_asciichess    -Wall -Wextra -pedantic -Weffc++ -Wshadow -fuse-ld=gold -std=gnu++17 -o CMakeFiles/asciichess.dir/console_visitor.cpp.obj -c /C/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/console_visitor.cpp",
+  "file": "C:/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/console_visitor.cpp"
+}
+]

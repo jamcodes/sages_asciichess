@@ -1,0 +1,3 @@
+C:/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/build/CMakeFiles/rebuild_cache.dir
+C:/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/build/CMakeFiles/asciichess.dir
+C:/Users/JMucha/dev/cpp_adv_arch/sages_asciichess/build/CMakeFiles/edit_cache.dir
